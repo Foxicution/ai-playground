@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-playground"
+version = "0.1.0"
+description = ""
+authors = ["Foxicution <foxicution@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ai_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nbdev = "^2.3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
