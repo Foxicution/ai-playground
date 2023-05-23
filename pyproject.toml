@@ -9,7 +9,8 @@ packages = [{include = "ai_playground"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
 nbdev = "^2.3.12"
 
 [build-system]
