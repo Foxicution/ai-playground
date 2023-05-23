@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "ai-playground"
+  site-url: "https://Foxicution.github.io/ai-playground"
+  description: "..."
+  repo-branch: main
+  repo-url: "https://github.com/Foxicution/ai-playground"
